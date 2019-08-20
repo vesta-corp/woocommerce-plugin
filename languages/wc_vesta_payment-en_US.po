@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-05-07 18:55+0530\n"
+"PO-Revision-Date: 2019-05-30 18:43+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+# Line no 116 vesta_woocommerce_payment.php
+msgid "Vesta Payment Logs"
+msgstr "Vesta Payment Logs"
+
+# Line no 90 vesta_payment_config.php
+msgid "Enable / Disable"
+msgstr "Enable / Disable"
+
+# Line no 91 vesta_payment_config.php
+msgid "Enable this payment gateway"
+msgstr "Enable this payment gateway"
+
+# Line no 96 vesta_payment_config.php
+msgid "Title"
+msgstr "Title"
+
+# Line no 98 vesta_payment_config.php
+# Line no 107 vesta_payment_config.php
+msgid "Payment title of checkout process."
+msgstr "Payment title of checkout process."
+
+# Line no 99 vesta_payment_config.php
+msgid "Vesta Payment Gateway"
+msgstr "Vesta Payment Gateway"
+
+# Line no 101 vesta_payment_config.php
+# Line no 136 vesta_payment_config.php
+# Line no 144 vesta_payment_config.php
+# Line no 152 vesta_payment_config.php
+# Line no 160 vesta_payment_config.php
+# Line no 168 vesta_payment_config.php
+msgid "required"
+msgstr ""
+
+# Line no 105 vesta_payment_config.php
+msgid "Description"
+msgstr "Description"
+
+# Line no 108 vesta_payment_config.php
+msgid "Make payment through credit card with vesta gateway."
+msgstr "Make payment through credit card with vesta gateway."
+
+# Line no 112 vesta_payment_config.php
+msgid "Test mode"
+msgstr "Test mode"
+
+# Line no 113 vesta_payment_config.php
+msgid "Enable Test Mode"
+msgstr "Enable Test Mode"
+
+# Line no 115 vesta_payment_config.php
+msgid "Place the payment gateway in test mode using test API keys."
+msgstr "Place the payment gateway in test mode using test API keys."
+
+# Line no 120 vesta_payment_config.php
+msgid "Payment action"
+msgstr "Payment action"
+
+# Line no 123 vesta_payment_config.php
+msgid "Choose whether you wish to capture funds immediately or authorize payment only."
+msgstr "Choose whether you wish to capture funds immediately or authorize payment only."
+
+# Line no 127 vesta_payment_config.php
+msgid "Authorize and Capture"
+msgstr "Authorize and Capture"
+
+# Line no 128 vesta_payment_config.php
+msgid "Authorize Only"
+msgstr "Authorize Only"
+
+# Line no 132 vesta_payment_config.php
+msgid "Account Name"
+msgstr "Account Name"
+
+# Line no 134 vesta_payment_config.php
+msgid "This is the account name provided by vesta when you signed up for an account."
+msgstr "This is the account name provided by vesta when you signed up for an account."
+
+# Line no 140 vesta_payment_config.php
+msgid "Password"
+msgstr "Password"
+
+# Line no 142 vesta_payment_config.php
+msgid "This is the password provided by vesta when you signed up for an account."
+msgstr "This is the password provided by vesta when you signed up for an account."
+
+# Line no 148 vesta_payment_config.php
+msgid "API URL"
+msgstr "API URL"
+
+# Line no 150 vesta_payment_config.php
+msgid "This is the API URL provided by Vesta when you signed up for an account."
+msgstr ""
+
+# Line no 156 vesta_payment_config.php
+msgid "Partner Customer Key"
+msgstr "Partner Customer Key"
+
+# Line no 158 vesta_payment_config.php
+msgid "This is the Partner Customer Key provided by Vesta when you signed up for an account."
+msgstr "This is the Partner Customer Key provided by Vesta when you signed up for an account."
+
+# Line no 164 vesta_payment_config.php
+msgid "Merchant Routing ID"
+msgstr "Merchant Routing ID"
+
+# Line no 166 vesta_payment_config.php
+msgid "This is the Merchant Routing ID provided by Vesta when you signed up for an account."
+msgstr "This is the Merchant Routing ID provided by Vesta when you signed up for an account."
+
+# Line no 171 vesta_payment_config.php
+msgid "Accepted Cards"
+msgstr "Accepted Cards"
+
+# Line no 176 vesta_payment_config.php
+msgid "Select the card types to accept."
+msgstr "Select the card types to accept."
+
+# Line no 188 vesta_payment_config.php
+# Line no 190 vesta_payment_config.php
+msgid "Saved Card"
+msgstr "Saved Card"
+
+# Line no 195 vesta_payment_config.php
+msgid "Debug Log"
+msgstr "Debug Log"
+
+# Line no 197 vesta_payment_config.php
+msgid "Enable log"
+msgstr "Enable log"
+
+# Line no 487 vesta_payment_config.php
+msgid "Vesta Payment Completed"
+msgstr "Vesta Payment Completed"
+
+# Line no 494 vesta_payment_config.php
+msgid "Payment Authorize and Capture Success"
+msgstr "Payment Authorize and Capture Success"
+
+# Line no 503 vesta_payment_config.php
+# Line no 84 vesta_payment_capture.php
+msgid "Vesta Payment Processing"
+msgstr "Vesta Payment Processing"
+
+# Line no 504 vesta_payment_config.php
+msgid "Vesta payment charge authorized (Charge ID: %s). Process order to take payment, or cancel to remove the pre-authorization."
+msgstr "Vesta payment charge authorized (Charge ID: %s). Process order to take payment, or cancel to remove the pre-authorization."
+
+# Line no 511 vesta_payment_config.php
+msgid "Payment Authorize Success"
+msgstr "Payment Authorize Success"
+
+# Line no 521 vesta_payment_config.php
+msgid "Fraud denied. This can occur if our platform has determined that this transaction is too risky to process, or the customer is not reliable."
+msgstr "Fraud denied. This can occur if our platform has determined that this transaction is too risky to process, or the customer is not reliable."
+
+# Line no 530 vesta_payment_config.php
+msgid "Bank denied."
+msgstr "Bank denied."
+
+# Line no 685 vesta_payment_config.php
+msgid "Payment voided successfully"
+msgstr "Payment voided successfully"
+
+# Line no 687 vesta_payment_config.php
+msgid "Payment refunded successfully"
+msgstr "Payment refunded successfully"
+
+# Line no 726 vesta_payment_config.php
+msgid "Refund cannot be performed for ‘Authorize Only’ transaction. Kindly void the transaction, to cancel the payment."
+msgstr "Refund cannot be performed for ‘Authorize Only’ transaction. Kindly void the transaction, to cancel the payment."
+
+# Line no 729 vesta_payment_config.php
+msgid "Order %s does not refunded! Please try again or contact service privider."
+msgstr "Order %s does not refunded! Please try again or contact service privider."
+
+# Line no 12 vesta_payment_capture.php
+msgid "Capture authorized transaction"
+msgstr "Capture authorized transaction"
+
+# Line no 85 vesta_payment_capture.php
+msgid "Vesta payment charge captured (Charge ID: %s)."
+msgstr "Vesta payment charge captured (Charge ID: %s)."
+
+# Line no 521 vesta_payment_config.php
+msgid "Your transaction has been declined by the card issuer, you will not be charged. Please contact the card issuer with additional questions or use another credit card or debit card."
+msgstr "Your transaction has been declined by the card issuer, you will not be charged. Please contact the card issuer with additional questions or use another credit card or debit card."
+
+# Line no 512 vesta_payment_config.php
+msgid "Your transaction has been declined and your card will not be charged. Please verify that the information you entered matches what your bank has on file or use a different credit or debit card.<br><br>Please note that your bank may place an \"authorization hold\" on your account for the full attempted transaction amount until they process this decline. It takes most banks 1-2 business days to remove the pending amount, please contact your bank if you have questions about their authorization hold reversal procedure."
+msgstr "Your transaction has been declined and your card will not be charged. Please verify that the information you entered matches what your bank has on file or use a different credit or debit card.<br><br>Please note that your bank may place an \"authorization hold\" on your account for the full attempted transaction amount until they process this decline. It takes most banks 1-2 business days to remove the pending amount, please contact your bank if you have questions about their authorization hold reversal procedure."
+
+# Line no 601 vesta_payment_config.php
+# Line no 609 vesta_payment_config.php
+msgid "XML XSD validation error, Could not get risk data!"
+msgstr "XML XSD validation error, Could not get risk data!"
+
+# Line no 603 vesta_payment_config.php
+# Line no 611 vesta_payment_config.php
+msgid "XML XSD validation error."
+msgstr "XML XSD validation error."

@@ -1,0 +1,483 @@
+@font-face {
+  font-family: "icons";
+  src: url("../fonts/icomoon.woff") format("woff"),
+    url("../fonts/icomoon.ttf") format("truetype"),
+    url("../fonts/icomoon.otf") format("opentype"),
+    url("../fonts/icomoon.eot") format("embedded-opentype");
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+#title {
+  font-family: "Roboto";
+  font-size: 100px;
+  color: #e0e0e0;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: rotate(-30deg);
+  transform-origin: bottom left;
+}
+
+.card-bounding {
+  width: 90%;
+  /*max-width: 500px;*/
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  /*transform: translateY(-50%);*/
+  padding: 30px;
+  border: 1px solid #3e73ea;
+  border-radius: 6px;
+  font-family: "Roboto";
+  background: #ffffff;
+}
+
+.card-bounding aside {
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+
+.card-container {
+  width: 100%;
+  padding-left: 80px;
+  padding-right: 40px;
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin: 0 auto 30px auto;
+}
+
+.card-container input {
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 23px;
+  padding: 15px 15px 15px 25px;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.card-type {
+  width: 80px;
+  height: 56px;
+  background: url("../images/cards.png");
+  background-position: 0 -291px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 3px;
+  left: 4px;
+}
+
+.card-type.mastercard {
+  background-position: 0 0;
+}
+
+.card-type.visa {
+  background-position: 0 -115px;
+}
+
+.card-type.amex {
+  background-position: 0 -57px;
+}
+
+.card-type.discover {
+  background-position: 0 -174px;
+}
+
+.card-valid {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  line-height: 60px;
+  font-size: 40px;
+  font-family: "icons";
+  color: #ccc;
+}
+
+.card-valid.active {
+  color: #42ca7c;
+}
+
+.card-details {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 30px;
+  transition: 300ms ease;
+}
+
+.card-details input {
+  font-size: 23px;
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.card-details input.error {
+  border: 1px solid #c2313c;
+  box-shadow: 0 4px 8px 0 rgba(238, 76, 87, 0.3);
+  outline: none;
+}
+
+.card-details .expiration {
+  width: 50%;
+  float: left;
+  padding-right: 5%;
+}
+
+.card-details .cvv {
+  width: 45%;
+  float: left;
+}
+
+.wc_payment_methods img {
+  margin-left: 5px;
+}
+
+.wc_payment_method .payment_box,
+.wc_payment_method .payment_box fieldset {
+  background: #ddd;
+  padding: 10px 15px;
+}
+
+.card-container {
+  border-radius: 5px;
+}
+
+.card-container input,
+.card-details input {
+  font-size: 22px;
+
+  padding: 8px 15px 8px 25px;
+}
+
+.card-valid {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  line-height: 49px;
+  font-size: 30px;
+  font-family: "icons";
+  color: #ccc;
+}
+
+.woocommerce-checkout .select2-container .select2-selection--single {
+  height: 40px !important;
+}
+
+.woocommerce-checkout
+  .select2-container
+  .select2-selection--single
+  .select2-selection__rendered {
+  line-height: 38px;
+}
+
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow
+  b {
+  margin-top: -5px;
+}
+
+.payment_method_wc_vesta_payment input[name="vesta_expiry"],
+.payment_method_wc_vesta_payment input[name="vesta_cvv"] {
+  border: 1px solid #ddd;
+  padding: 5px 15px;
+  border-radius: 3px;
+  font-size: 17px;
+}
+
+.payment_method_wc_vesta_payment input[name="save_token"] {
+  float: left;
+  width: auto;
+  position: relative;
+  top: 6px;
+  margin-left: 1px;
+}
+
+.payment_method_wc_vesta_payment .card-container input,
+.card-details input {
+  font-size: 18px;
+  padding: 4px 15px 8px 0px;
+}
+
+.payment_method_wc_vesta_payment .card-valid {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  line-height: 38px;
+  font-size: 23px;
+  font-family: "icons";
+  color: #ccc;
+}
+
+.payment_method_wc_vesta_payment .card-type {
+  width: 59px;
+  height: 35px !important;
+  background: url(../images/cards.png);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-size: auto auto;
+  background-position: 0px -173px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background-size: 16%;
+  background-size: 81%;
+}
+
+.payment_method_wc_vesta_payment .card-type.visa {
+  background-position: -1px -68px;
+  background-size: 81%;
+}
+.payment_method_wc_vesta_payment .card-type.dinner_card {
+  background-position: 0 -206px;
+}
+.payment_method_wc_vesta_payment .card-type.mastercard {
+  background-position: 0 1px;
+  background-size: 83%;
+  background-repeat: no-repeat;
+  height: 37px;
+}
+
+.payment_method_wc_vesta_payment .card-type.visa {
+  background-position: 0 -70px;
+  background-size: 83%;
+  background-repeat: no-repeat;
+  height: 37px;
+}
+
+.payment_method_wc_vesta_payment .card-type.amex {
+  background-position: 2px -34px !important;
+  background-position: 0 bottom;
+  height: 34px !important;
+}
+
+.payment_method_wc_vesta_payment .card-type.discover {
+  background-position: 2px -104px !important;
+  background-position: 0 bottom;
+  height: 34px !important;
+}
+
+.payment_method_wc_vesta_payment .card-valid.active {
+  color: #42ca7c !important;
+}
+
+.card-bounding {
+  border: 0px;
+}
+
+.payment_method_wc_vesta_payment .card-bounding aside {
+  font-size: 17px;
+}
+
+.payment_method_wc_vesta_payment .card-container {
+  width: 95.5%;
+  float: left;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:gray !important;
+  opacity: 1; /* Firefox */
+}
+.vesta_save_card {
+  margin-bottom: 20px;
+}
+
+#add_payment_method ul.woocommerce-PaymentMethods li input.input-radio[name="payment_method"] {
+  display: none;
+}
+
+#add_payment_method ul.woocommerce-PaymentMethods li input.input-radio[name="payment_method"]:checked + label::before {
+
+  background: #000;
+
+}
+#add_payment_method ul.woocommerce-PaymentMethods li {
+
+  list-style: none;
+  border-bottom: 1px solid #ddd;
+  
+
+}
+#add_payment_method ul.woocommerce-PaymentMethods li input.input-radio[name="payment_method"] + label::before {
+
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #000;
+  background: #fff;
+  margin-left: 4px;
+  margin-right: .5em;
+  border-radius: 100%;
+  -webkit-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
+}
+#add_payment_method ul.woocommerce-PaymentMethods li > label:first-of-type img {
+
+  max-height: 24px;
+  max-width: 200px;
+  float: right;
+
+}
+#add_payment_method ul.woocommerce-PaymentMethods li img {
+  margin-left:5px;
+}
+#add_payment_method ul.woocommerce-PaymentMethods li > label:first-of-type {
+
+  margin: 1em 0;
+
+}
+
+
+/* 5/10/2019 */
+
+.vesta_card_img img {
+  float: none !important;
+}
+.payment_method_wc_vesta_payment label {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.wc_payment_method.payment_method_wc_vesta_payment {
+  padding: 10px 0 !important;
+}
+.vesta_card_img {
+  margin-left: auto;
+  display: -webkit-inline-flexbox;
+  display: -ms-inline-flex;
+  display: inline-flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.vestaCard_bounding.card-bounding {
+  padding: 15px 15px;
+}
+.card-details .cvv{
+  width: 50%;
+}
+.vesta_inputFull .card-bounding.vestaCard_bounding .card-details .expiration, .vesta_inputFull .card-bounding.vestaCard_bounding .card-details .cvv {
+  width: 100%;
+  float: none;
+  padding-right: 0;
+  clear: both;
+}
+.vesta_inputFull .payment_method_wc_vesta_payment .card-type {
+  width: 40px;
+  height: 25px !important;
+  background-position: 0px -130px;
+  background-size: 90%;
+  top: 2px;
+  left: 5px;
+}
+.vesta_inputFull .card-bounding.vestaCard_bounding .card-container {
+  margin-bottom: 15px;
+}
+.vesta_inputFull .card-container {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+.vesta_inputFull .payment_method_wc_vesta_payment .card-type.visa {
+  background-position: 0 -51px;
+}
+.vesta_inputFull .payment_method_wc_vesta_payment .card-type.mastercard {
+  background-position: 0 1px;
+}
+.vesta_inputFull .payment_method_wc_vesta_payment .card-type.amex {
+  background-position: 0 -24px !important;
+}
+.vesta_inputFull .payment_method_wc_vesta_payment .card-type.discover {
+  background-position: 0 -77px !important;
+}
+.vesta_inputFull .payment_method_wc_vesta_payment .card-type.dinner_card {
+  background-position: 0 -156px;
+}
+.vesta_inputFull .payment_method_wc_vesta_payment .card-container input, .vesta_inputFull .card-details input {
+  font-size: 15px;
+  padding: 3px 8px;
+  letter-spacing: .5px;
+  outline: 0;
+}
+.vesta_inputFull .payment_method_wc_vesta_payment .card-valid {
+  right: 8px;
+  font-size: 16px;
+  line-height: 30px;
+}
+.card-bounding.vestaCard_bounding .card-details .expiration{
+  margin-bottom: 15px;
+}
+.payment_method_wc_vesta_payment .card-bounding.vestaCard_bounding aside {
+  font-size: 14px;
+  font-weight: 600;
+}
+.card-bounding.vestaCard_bounding .card-container{
+  margin-bottom: 20px;
+  width: 100%;
+}
+.payment_method_wc_vesta_payment {
+  padding: 10px 15px !important;
+}
+#payment .payment_methods li .payment_box fieldset{
+  padding: 1em 0 !important;;
+}
+@media screen and (max-width: 600px){
+  .vestaCard_bounding.card-bounding {
+    width: 100%;
+    padding: 20px;
+}
+.vestaCard_bounding.card-bounding .card-container input, .vestaCard_bounding.card-bounding .card-details input {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.vestaCard_bounding.card-bounding .card-details {
+  margin-bottom: 0;
+}
+.wc_payment_method .payment_box fieldset {
+  margin: 0 0 5px;
+}
+}
+
+/* 
+@media screen and (max-width: 450px){
+  
+
+
+} */
+@media screen and (max-width: 375px){
+
+.payment_method_wc_vesta_payment label img{
+  float: none !important;
+}
+}
+/*Finger print css*/
+.checkout-index-index header {
+    margin-top: -20px !important;
+}
+
+.checkout-index-index>p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
