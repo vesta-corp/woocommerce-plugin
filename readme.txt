@@ -17,7 +17,7 @@ The Vesta Guaranteed Payment extension for WooCommerce allows you to accept cred
 Vesta's solutions help you grow your business by focusing on revenue, not risk.
 
 **Account & Pricing**
-A Vesta account is required to use this extension. If you don't yet have a Vesta account then you will need to [sign-up here](https://trustvesta.com/resources/developers/) for one as the extension will not create an account during installation. To discuss which options may be right for your business, learn more about pricing, request a demo or to apply for an account, please visit [www.trustvesta.com/resources/extensions/.](https://trustvesta.com/resources/extensions/)
+A Vesta account is required to use this extension. If you don't yet have a Vesta account then you will need to [sign-up here](https://vportal.trustvesta.com/vPortal4/#!/registerUser) for one as the extension will not create an account during installation. To discuss which options may be right for your business, learn more about pricing, request a demo or to apply for an account, please visit [www.trustvesta.com.](https://trustvesta.com)
 
 **Benefits:**
 * Accept all major credit and debit cards.
